@@ -1,0 +1,1580 @@
+cat: /proc/10/io: Permission denied
+     1	sqlservr (10, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.786292
+     4	se.vruntime                                  :           102.654327
+     5	se.sum_exec_runtime                          :            47.397328
+     6	se.nr_migrations                             :                    0
+     7	nr_switches                                  :                   11
+     8	nr_voluntary_switches                        :                   10
+     9	nr_involuntary_switches                      :                    1
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  320
+    13	se.avg.runnable_load_sum                     :                  320
+    14	se.avg.util_sum                              :               309751
+    15	se.avg.load_avg                              :                    2
+    16	se.avg.runnable_load_avg                     :                    2
+    17	se.avg.util_avg                              :                    1
+    18	se.avg.last_update_time                      :       54849038785536
+    19	se.avg.util_est.ewma                         :                  333
+    20	se.avg.util_est.enqueued                     :                    1
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   30
+cat: /proc/10/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	10
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	10
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	10
+    54	nonvoluntary_ctxt_switches:	1
+cat: /proc/10/task/10/io: Permission denied
+     1	sqlservr (10, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.786292
+     4	se.vruntime                                  :           102.654327
+     5	se.sum_exec_runtime                          :            47.397328
+     6	se.nr_migrations                             :                    0
+     7	nr_switches                                  :                   11
+     8	nr_voluntary_switches                        :                   10
+     9	nr_involuntary_switches                      :                    1
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  320
+    13	se.avg.runnable_load_sum                     :                  320
+    14	se.avg.util_sum                              :               309751
+    15	se.avg.load_avg                              :                    2
+    16	se.avg.runnable_load_avg                     :                    2
+    17	se.avg.util_avg                              :                    1
+    18	se.avg.last_update_time                      :       54849038785536
+    19	se.avg.util_est.ewma                         :                  333
+    20	se.avg.util_est.enqueued                     :                    1
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   20
+cat: /proc/10/task/10/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	10
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	10
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	10
+    54	nonvoluntary_ctxt_switches:	1
+cat: /proc/10/task/11/io: Permission denied
+     1	sqlservr (11, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.796502
+     4	se.vruntime                                  :            11.450768
+     5	se.sum_exec_runtime                          :             0.332960
+     6	se.nr_migrations                             :                    0
+     7	nr_switches                                  :                    3
+     8	nr_voluntary_switches                        :                    3
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  235
+    13	se.avg.runnable_load_sum                     :                  235
+    14	se.avg.util_sum                              :               222179
+    15	se.avg.load_avg                              :                    0
+    16	se.avg.runnable_load_avg                     :                    0
+    17	se.avg.util_avg                              :                    0
+    18	se.avg.last_update_time                      :       54849038795776
+    19	se.avg.util_est.ewma                         :                   96
+    20	se.avg.util_est.enqueued                     :                    1
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   20
+cat: /proc/10/task/11/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	11
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	11
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	3
+    54	nonvoluntary_ctxt_switches:	0
+cat: /proc/10/task/12/io: Permission denied
+     1	sqlservr (12, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.793202
+     4	se.vruntime                                  :            35.858342
+     5	se.sum_exec_runtime                          :             0.235310
+     6	se.nr_migrations                             :                    0
+     7	nr_switches                                  :                    3
+     8	nr_voluntary_switches                        :                    3
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  250
+    13	se.avg.runnable_load_sum                     :                  250
+    14	se.avg.util_sum                              :               236304
+    15	se.avg.load_avg                              :                    0
+    16	se.avg.runnable_load_avg                     :                    0
+    17	se.avg.util_avg                              :                    0
+    18	se.avg.last_update_time                      :       54849038792704
+    19	se.avg.util_est.ewma                         :                   96
+    20	se.avg.util_est.enqueued                     :                    1
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   40
+cat: /proc/10/task/12/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	12
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	12
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	3
+    54	nonvoluntary_ctxt_switches:	0
+cat: /proc/10/task/13/io: Permission denied
+     1	sqlservr (13, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.804432
+     4	se.vruntime                                  :            28.785277
+     5	se.sum_exec_runtime                          :             0.266651
+     6	se.nr_migrations                             :                    0
+     7	nr_switches                                  :                    3
+     8	nr_voluntary_switches                        :                    3
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  230
+    13	se.avg.runnable_load_sum                     :                  230
+    14	se.avg.util_sum                              :               205552
+    15	se.avg.load_avg                              :                    1
+    16	se.avg.runnable_load_avg                     :                    1
+    17	se.avg.util_avg                              :                    0
+    18	se.avg.last_update_time                      :       54849038793728
+    19	se.avg.util_est.ewma                         :                   72
+    20	se.avg.util_est.enqueued                     :                    1
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   10
+cat: /proc/10/task/13/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	13
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	13
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	3
+    54	nonvoluntary_ctxt_switches:	0
+cat: /proc/10/task/14/io: Permission denied
+     1	sqlservr (14, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.795122
+     4	se.vruntime                                  :            11.239846
+     5	se.sum_exec_runtime                          :           187.413889
+     6	se.nr_migrations                             :                    4
+     7	nr_switches                                  :                  880
+     8	nr_voluntary_switches                        :                  878
+     9	nr_involuntary_switches                      :                    2
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                12442
+    13	se.avg.runnable_load_sum                     :                12442
+    14	se.avg.util_sum                              :             12646446
+    15	se.avg.load_avg                              :                  267
+    16	se.avg.runnable_load_avg                     :                  267
+    17	se.avg.util_avg                              :                  265
+    18	se.avg.last_update_time                      :       54849038794752
+    19	se.avg.util_est.ewma                         :                  283
+    20	se.avg.util_est.enqueued                     :                  265
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   30
+cat: /proc/10/task/14/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	14
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	14
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	878
+    54	nonvoluntary_ctxt_switches:	2
+cat: /proc/10/task/15/io: Permission denied
+     1	sqlservr (15, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.793512
+     4	se.vruntime                                  :            31.356593
+     5	se.sum_exec_runtime                          :             2.333558
+     6	se.nr_migrations                             :                    0
+     7	nr_switches                                  :                   59
+     8	nr_voluntary_switches                        :                   59
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  833
+    13	se.avg.runnable_load_sum                     :                  833
+    14	se.avg.util_sum                              :               671302
+    15	se.avg.load_avg                              :                   15
+    16	se.avg.runnable_load_avg                     :                   15
+    17	se.avg.util_avg                              :                   11
+    18	se.avg.last_update_time                      :       54849038792704
+    19	se.avg.util_est.ewma                         :                   19
+    20	se.avg.util_est.enqueued                     :                   10
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   30
+cat: /proc/10/task/15/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	15
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	15
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	59
+    54	nonvoluntary_ctxt_switches:	0
+cat: /proc/10/task/16/io: Permission denied
+     1	sqlservr (16, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.794342
+     4	se.vruntime                                  :            24.545658
+     5	se.sum_exec_runtime                          :             0.266360
+     6	se.nr_migrations                             :                    0
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  462
+    13	se.avg.runnable_load_sum                     :                  462
+    14	se.avg.util_sum                              :               294195
+    15	se.avg.load_avg                              :                    7
+    16	se.avg.runnable_load_avg                     :                    7
+    17	se.avg.util_avg                              :                    3
+    18	se.avg.last_update_time                      :       54849038793728
+    19	se.avg.util_est.ewma                         :                   96
+    20	se.avg.util_est.enqueued                     :                    3
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   60
+cat: /proc/10/task/16/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	16
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	16
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	2
+    54	nonvoluntary_ctxt_switches:	0
+cat: /proc/10/task/17/io: Permission denied
+     1	sqlservr (17, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.792492
+     4	se.vruntime                                  :            11.710576
+     5	se.sum_exec_runtime                          :             0.555340
+     6	se.nr_migrations                             :                    0
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  449
+    13	se.avg.runnable_load_sum                     :                  449
+    14	se.avg.util_sum                              :               252747
+    15	se.avg.load_avg                              :                    7
+    16	se.avg.runnable_load_avg                     :                    7
+    17	se.avg.util_avg                              :                    3
+    18	se.avg.last_update_time                      :       54849038791680
+    19	se.avg.util_est.ewma                         :                   96
+    20	se.avg.util_est.enqueued                     :                    3
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   30
+cat: /proc/10/task/17/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	17
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	17
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	2
+    54	nonvoluntary_ctxt_switches:	0
+cat: /proc/10/task/18/io: Permission denied
+     1	sqlservr (18, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.795172
+     4	se.vruntime                                  :            13.298791
+     5	se.sum_exec_runtime                          :             0.189410
+     6	se.nr_migrations                             :                    1
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  396
+    13	se.avg.runnable_load_sum                     :                  396
+    14	se.avg.util_sum                              :               188806
+    15	se.avg.load_avg                              :                    7
+    16	se.avg.runnable_load_avg                     :                    7
+    17	se.avg.util_avg                              :                    3
+    18	se.avg.last_update_time                      :       54849038792704
+    19	se.avg.util_est.ewma                         :                  128
+    20	se.avg.util_est.enqueued                     :                  513
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   30
+cat: /proc/10/task/18/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	18
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	18
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	2
+    54	nonvoluntary_ctxt_switches:	0
+cat: /proc/10/task/19/io: Permission denied
+     1	sqlservr (19, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.772522
+     4	se.vruntime                                  :           222.307363
+     5	se.sum_exec_runtime                          :             0.168750
+     6	se.nr_migrations                             :                    1
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  355
+    13	se.avg.runnable_load_sum                     :                  355
+    14	se.avg.util_sum                              :               174536
+    15	se.avg.load_avg                              :                    7
+    16	se.avg.runnable_load_avg                     :                    7
+    17	se.avg.util_avg                              :                    3
+    18	se.avg.last_update_time                      :       54849038772224
+    19	se.avg.util_est.ewma                         :                  120
+    20	se.avg.util_est.enqueued                     :                  481
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   20
+cat: /proc/10/task/19/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	19
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	19
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	2
+    54	nonvoluntary_ctxt_switches:	0
+cat: /proc/10/task/20/io: Permission denied
+     1	sqlservr (20, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.809162
+     4	se.vruntime                                  :            28.568857
+     5	se.sum_exec_runtime                          :             0.108880
+     6	se.nr_migrations                             :                    2
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  328
+    13	se.avg.runnable_load_sum                     :                  328
+    14	se.avg.util_sum                              :                 5120
+    15	se.avg.load_avg                              :                    7
+    16	se.avg.runnable_load_avg                     :                    7
+    17	se.avg.util_avg                              :                    0
+    18	se.avg.last_update_time                      :       54849038809088
+    19	se.avg.util_est.ewma                         :                   24
+    20	se.avg.util_est.enqueued                     :                   99
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   50
+cat: /proc/10/task/20/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	20
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	20
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	2
+    54	nonvoluntary_ctxt_switches:	0
+cat: /proc/10/task/21/io: Permission denied
+     1	sqlservr (21, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.796622
+     4	se.vruntime                                  :           210.331463
+     5	se.sum_exec_runtime                          :             0.171520
+     6	se.nr_migrations                             :                    0
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  387
+    13	se.avg.runnable_load_sum                     :                  387
+    14	se.avg.util_sum                              :               193227
+    15	se.avg.load_avg                              :                    7
+    16	se.avg.runnable_load_avg                     :                    7
+    17	se.avg.util_avg                              :                    3
+    18	se.avg.last_update_time                      :       54849038795776
+    19	se.avg.util_est.ewma                         :                   87
+    20	se.avg.util_est.enqueued                     :                    3
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   40
+cat: /proc/10/task/21/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	21
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	21
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	2
+    54	nonvoluntary_ctxt_switches:	0
+cat: /proc/10/task/22/io: Permission denied
+     1	sqlservr (22, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.792792
+     4	se.vruntime                                  :           102.431877
+     5	se.sum_exec_runtime                          :             0.156750
+     6	se.nr_migrations                             :                    1
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  339
+    13	se.avg.runnable_load_sum                     :                  339
+    14	se.avg.util_sum                              :               149044
+    15	se.avg.load_avg                              :                    7
+    16	se.avg.runnable_load_avg                     :                    7
+    17	se.avg.util_avg                              :                    3
+    18	se.avg.last_update_time                      :       54849038792704
+    19	se.avg.util_est.ewma                         :                  120
+    20	se.avg.util_est.enqueued                     :                  481
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   30
+cat: /proc/10/task/22/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	22
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	22
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	2
+    54	nonvoluntary_ctxt_switches:	0
+cat: /proc/10/task/23/io: Permission denied
+     1	sqlservr (23, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.847782
+     4	se.vruntime                                  :            11.144036
+     5	se.sum_exec_runtime                          :             0.192620
+     6	se.nr_migrations                             :                    0
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  435
+    13	se.avg.runnable_load_sum                     :                  435
+    14	se.avg.util_sum                              :               235839
+    15	se.avg.load_avg                              :                    7
+    16	se.avg.runnable_load_avg                     :                    7
+    17	se.avg.util_avg                              :                    4
+    18	se.avg.last_update_time                      :       54849038846976
+    19	se.avg.util_est.ewma                         :                   97
+    20	se.avg.util_est.enqueued                     :                    5
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   20
+cat: /proc/10/task/23/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	23
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	23
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	2
+    54	nonvoluntary_ctxt_switches:	0
+cat: /proc/10/task/24/io: Permission denied
+     1	sqlservr (24, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.795412
+     4	se.vruntime                                  :           102.427997
+     5	se.sum_exec_runtime                          :             0.104850
+     6	se.nr_migrations                             :                    0
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  385
+    13	se.avg.runnable_load_sum                     :                  385
+    14	se.avg.util_sum                              :                 2847
+    15	se.avg.load_avg                              :                    8
+    16	se.avg.runnable_load_avg                     :                    8
+    17	se.avg.util_avg                              :                    0
+    18	se.avg.last_update_time                      :       54849038794752
+    19	se.avg.util_est.ewma                         :                    0
+    20	se.avg.util_est.enqueued                     :                    0
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   30
+cat: /proc/10/task/24/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	24
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	24
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	2
+    54	nonvoluntary_ctxt_switches:	0
+cat: /proc/10/task/25/io: Permission denied
+     1	sqlservr (25, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.801152
+     4	se.vruntime                                  :           114.431117
+     5	se.sum_exec_runtime                          :             0.150530
+     6	se.nr_migrations                             :                    0
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  394
+    13	se.avg.runnable_load_sum                     :                  394
+    14	se.avg.util_sum                              :               156844
+    15	se.avg.load_avg                              :                    8
+    16	se.avg.runnable_load_avg                     :                    8
+    17	se.avg.util_avg                              :                    3
+    18	se.avg.last_update_time                      :       54849038800896
+    19	se.avg.util_est.ewma                         :                   75
+    20	se.avg.util_est.enqueued                     :                    3
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   30
+cat: /proc/10/task/25/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	25
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	25
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	2
+    54	nonvoluntary_ctxt_switches:	0
+cat: /proc/10/task/26/io: Permission denied
+     1	sqlservr (26, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.797572
+     4	se.vruntime                                  :            35.646512
+     5	se.sum_exec_runtime                          :             0.170240
+     6	se.nr_migrations                             :                    0
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  391
+    13	se.avg.runnable_load_sum                     :                  391
+    14	se.avg.util_sum                              :                96921
+    15	se.avg.load_avg                              :                    8
+    16	se.avg.runnable_load_avg                     :                    8
+    17	se.avg.util_avg                              :                    1
+    18	se.avg.last_update_time                      :       54849038796800
+    19	se.avg.util_est.ewma                         :                   46
+    20	se.avg.util_est.enqueued                     :                    1
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   50
+cat: /proc/10/task/26/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	26
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	26
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	2
+    54	nonvoluntary_ctxt_switches:	0
+cat: /proc/10/task/27/io: Permission denied
+     1	sqlservr (27, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.800662
+     4	se.vruntime                                  :            47.645232
+     5	se.sum_exec_runtime                          :             0.358610
+     6	se.nr_migrations                             :                    0
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                  396
+    13	se.avg.runnable_load_sum                     :                  396
+    14	se.avg.util_sum                              :                53800
+    15	se.avg.load_avg                              :                    8
+    16	se.avg.runnable_load_avg                     :                    8
+    17	se.avg.util_avg                              :                    1
+    18	se.avg.last_update_time                      :       54849038799872
+    19	se.avg.util_est.ewma                         :                   23
+    20	se.avg.util_est.enqueued                     :                    1
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   40
+cat: /proc/10/task/27/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	27
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	27
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	2
+    54	nonvoluntary_ctxt_switches:	0
+cat: /proc/10/task/28/io: Permission denied
+     1	sqlservr (28, #threads: 19)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :      54849038.801722
+     4	se.vruntime                                  :            23.253408
+     5	se.sum_exec_runtime                          :             0.171620
+     6	se.nr_migrations                             :                    0
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.runnable_weight                           :              1048576
+    12	se.avg.load_sum                              :                 4994
+    13	se.avg.runnable_load_sum                     :                 4994
+    14	se.avg.util_sum                              :              2551688
+    15	se.avg.load_avg                              :                  107
+    16	se.avg.runnable_load_avg                     :                  107
+    17	se.avg.util_avg                              :                   53
+    18	se.avg.last_update_time                      :       54849038800896
+    19	se.avg.util_est.ewma                         :                  108
+    20	se.avg.util_est.enqueued                     :                   53
+    21	policy                                       :                    0
+    22	prio                                         :                  120
+    23	clock-delta                                  :                   20
+cat: /proc/10/task/28/stack: Permission denied
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	10
+     5	Ngid:	0
+     6	Pid:	28
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	10001	10001	10001	10001
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	10
+    14	NSpid:	28
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  366872 kB
+    18	VmSize:	  366744 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	  113668 kB
+    22	VmRSS:	  113644 kB
+    23	RssAnon:	  101276 kB
+    24	RssFile:	   12368 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  207224 kB
+    27	VmStk:	     132 kB
+    28	VmExe:	    2052 kB
+    29	VmLib:	   22064 kB
+    30	VmPTE:	     840 kB
+    31	VmSwap:	       0 kB
+    32	HugetlbPages:	       0 kB
+    33	CoreDumping:	0
+    34	Threads:	19
+    35	SigQ:	2/50951
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c1808ef8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	0000000000000400
+    43	CapEff:	0000000000000400
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	NoNewPrivs:	0
+    47	Seccomp:	2
+    48	Speculation_Store_Bypass:	thread force mitigated
+    49	Cpus_allowed:	fff
+    50	Cpus_allowed_list:	0-11
+    51	Mems_allowed:	1
+    52	Mems_allowed_list:	0
+    53	voluntary_ctxt_switches:	2
+    54	nonvoluntary_ctxt_switches:	0

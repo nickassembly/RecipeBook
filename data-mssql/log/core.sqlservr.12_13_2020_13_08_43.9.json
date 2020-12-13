@@ -1,0 +1,28 @@
+{
+    "reason": "0x00000007",
+    "processName": "sqlservr",
+    "pid": "9",
+    "instanceId": "af7c195f-ced1-4307-abd5-44eccd097190",
+    "crashId": "18b1dce4-637d-40aa-a500-3060bec07516",
+    "threadState": "0x00007fefc55f46a8",
+    "threadId": "13",
+    "libosThreadId": "0x4",
+    "buildStamp": "fd4eb1565f159d8f4b2d49c48e96d5797508c8bc5f222def3def149a28435962",
+    "status": "0xc0000034",
+    "message": "Failed to load persistent registry. status code: c0000034\n",
+    "stackTrace": [
+        "file://package4/windows/system32/sqlpal.dll+0x000000000030E7D9",
+        "file://package4/windows/system32/sqlpal.dll+0x000000000030DAB4",
+        "file://package4/windows/system32/sqlpal.dll+0x000000000030B6DF",
+        "file://package4/windows/system32/sqlpal.dll+0x000000000030B85C",
+        "file://package4/windows/system32/sqlpal.dll+0x000000000030A6B9",
+        "file://package4/windows/system32/sqlpal.dll+0x0000000000309590",
+        "file://package4/windows/system32/sqlpal.dll+0x000000000034ED21"
+    ],
+    "last_errno": "2",
+    "last_errno_text": "No such file or directory",
+    "distribution": "Ubuntu 18.04.5 LTS",
+    "processors": "12",
+    "total_memory": "13361688576",
+    "timestamp": "Sun Dec 13 13:08:43 2020"
+}
