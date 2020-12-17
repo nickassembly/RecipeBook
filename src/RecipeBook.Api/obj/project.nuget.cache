@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aqDw6eFFzSmLaF/CeD7mhkuF6qGiEpPqFX2NbrEI6eYj+XyGljOw2JviX5vWJv8Qe4Tktks8k4un8Rd4KJLWmA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nick\\source\\repos\\DotNet\\RecipeBook\\src\\RecipeBook.Api\\RecipeBook.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nick\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}

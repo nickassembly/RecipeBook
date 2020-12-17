@@ -14,7 +14,7 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_recipebook.api$
     volumes:
-      - C:\Users\Nick\source\repos\DotNet\RecipeBook\RecipeBook.Api:/app
+      - C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Api:/app
       - C:\Users\Nick\source\repos\DotNet\RecipeBook:/src
       - C:\Users\Nick\vsdbg\vs2017u5:/remote_debugger:rw
 #$nuget_volume_mapping_recipebook.api$

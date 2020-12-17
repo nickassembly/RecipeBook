@@ -2,7 +2,7 @@ services:
   recipebook.api:
     build:
       context: C:\Users\Nick\source\repos\DotNet\RecipeBook
-      dockerfile: RecipeBook.Api/Dockerfile
+      dockerfile: src/RecipeBook.Api/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: https://+:443;http://+:80
