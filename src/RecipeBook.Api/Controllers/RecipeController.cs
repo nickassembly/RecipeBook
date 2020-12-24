@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RecipeBook.ServiceLibrary.Domains;
 using RecipeBook.ServiceLibrary.Entities;
+using System;
+using System.Threading.Tasks;
 
 namespace RecipeBook.Api.Controllers
 {
@@ -8,12 +10,42 @@ namespace RecipeBook.Api.Controllers
    [ApiController]
    public class RecipeController : ControllerBase
    {
-      [HttpGet]
-      public IActionResult AddNewRecipe([FromQuery]RecipeEntity recipeEntity)
+      // Model Binding
+      // [FromQuery] - Gets values from the query string.
+      // [FromRoute] - Gets values from route data.
+      // [FromForm] - Gets values from posted form fields. 
+      // [FromHeader] - Gets values from HTTP headers.
+      // [FromBody] - Gets values from the request body.
+
+      [HttpGet("{recipeId}")] // api/recipe/{recipeId}
+      public async Task<IActionResult> GetOnceAsync([FromRoute] Guid recipeId)
       {
-         var businessLogic = new Recipe();
-         businessLogic.SaveRecipe(recipeEntity);
-         return Ok();
+         return Ok(recipeId);
+      }
+
+      [HttpGet] // api/recipes?pageSize=108&pageNumber=1
+      public async Task<IActionResult> GetListAsync([FromQuery]int pageSize,
+                                                    [FromQuery] int pageNumber)
+      {
+         return Ok(pageSize + " " + pageNumber);
+      }
+
+      [HttpPost]
+      public async Task<IActionResult> PostAsync([FromBody] RecipeEntity recipe)
+      {
+         return Ok(recipe);
+      }
+
+      [HttpPut]
+      public async Task<IActionResult> PutAsync([FromBody] RecipeEntity recipe)
+      {
+         return Ok(recipe);
+      }
+
+      [HttpDelete("{recipeId}")]
+      public async Task<IActionResult> DeleteAsync(Guid recipeId)
+      {
+         return Ok(recipeId);
       }
 
    }
