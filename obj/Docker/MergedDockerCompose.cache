@@ -3,6 +3,9 @@ services:
     build:
       context: C:\Users\Nick\source\repos\DotNet\RecipeBook
       dockerfile: src/RecipeBook.Api/Dockerfile
+    depends_on:
+      sqlserver:
+        condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: https://+:443;http://+:80
@@ -17,4 +20,15 @@ services:
     volumes:
     - C:\Users\Nick\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
     - C:\Users\Nick\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  sqlserver:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: P@ssword123
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    ports:
+    - published: 5050
+      target: 1433
+    restart: unless-stopped
+    volumes:
+    - C:\Users\Nick\source\repos\DotNet\RecipeBook\data-mssql:/var/opt/mssql/data:rw
 version: '3.4'

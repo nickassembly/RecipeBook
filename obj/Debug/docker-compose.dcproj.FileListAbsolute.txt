@@ -6,3 +6,5 @@ C:\Users\Nick\source\repos\DotNet\RecipeBook\bin\Debug\RecipeBook.Api.exe
 C:\Users\Nick\source\repos\DotNet\RecipeBook\bin\Debug\RecipeBook.Api.pdb
 C:\Users\Nick\source\repos\DotNet\RecipeBook\obj\Debug\docker-compose.dcprojAssemblyReference.cache
 C:\Users\Nick\source\repos\DotNet\RecipeBook\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\Nick\source\repos\DotNet\RecipeBook\bin\Debug\RecipeBook.ServiceLibrary.dll
+C:\Users\Nick\source\repos\DotNet\RecipeBook\bin\Debug\RecipeBook.ServiceLibrary.pdb
