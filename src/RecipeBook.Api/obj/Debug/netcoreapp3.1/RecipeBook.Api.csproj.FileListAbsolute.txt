@@ -44,3 +44,10 @@ C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Api\obj\Debug\netcor
 C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Api\obj\Debug\netcoreapp3.1\RecipeBook.Api.dll
 C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Api\obj\Debug\netcoreapp3.1\RecipeBook.Api.pdb
 C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Api\obj\Debug\netcoreapp3.1\RecipeBook.Api.genruntimeconfig.cache
+C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Api\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Api\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Api\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Api\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

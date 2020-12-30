@@ -1,10 +1,5 @@
 C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Main\bin\Debug\RecipeBook.Main.dacpac
-C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Main\obj\Debug\RecipeBook.Main.sqlprojAssemblyReference.cache
-C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Main\obj\Debug\Model.xml
-C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Main\obj\Debug\refactor.xml
-C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Main\obj\Debug\postdeploy.sql
-C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Main\obj\Debug\predeploy.sql
-C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Main\obj\Debug\RecipeBook.Main.dll
-C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Main\obj\Debug\RecipeBook.Main.pdb
 C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Main\bin\Debug\RecipeBook.Main.dll
 C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Main\bin\Debug\RecipeBook.Main.pdb
+C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Main\obj\Debug\RecipeBook.Main.dll
+C:\Users\Nick\source\repos\DotNet\RecipeBook\src\RecipeBook.Main\obj\Debug\RecipeBook.Main.pdb

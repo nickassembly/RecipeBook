@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBook.ServiceLibrary",
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RecipeBook.Main", "src\RecipeBook.Main\RecipeBook.Main.sqlproj", "{CD59CF10-BD8A-4A51-BFFF-111666742869}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBook.ServiceLibrary.Tests", "tests\RecipeBook.ServiceLibrary.Tests\RecipeBook.ServiceLibrary.Tests.csproj", "{E3DF9B56-E0D1-482C-99E2-66E8C8852CFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{CD59CF10-BD8A-4A51-BFFF-111666742869}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD59CF10-BD8A-4A51-BFFF-111666742869}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CD59CF10-BD8A-4A51-BFFF-111666742869}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E3DF9B56-E0D1-482C-99E2-66E8C8852CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3DF9B56-E0D1-482C-99E2-66E8C8852CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3DF9B56-E0D1-482C-99E2-66E8C8852CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3DF9B56-E0D1-482C-99E2-66E8C8852CFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 		{12C560F5-2DE9-4108-8CCC-F4FCBE4FA3D4} = {5CF8FE5D-AFDD-40D4-A397-7CC6F9204658}
 		{E1A65A66-3063-433E-93F8-1599C8ED132E} = {5CF8FE5D-AFDD-40D4-A397-7CC6F9204658}
 		{CD59CF10-BD8A-4A51-BFFF-111666742869} = {5CF8FE5D-AFDD-40D4-A397-7CC6F9204658}
+		{E3DF9B56-E0D1-482C-99E2-66E8C8852CFD} = {581E2CCD-9200-46C9-84DA-303C4503D15C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88B34C8D-9BBB-4389-A479-BE5C9AD465FE}
